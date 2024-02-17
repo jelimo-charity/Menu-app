@@ -1,8 +1,7 @@
 import React from 'react'
 import './menu.css'
-import menu from './data.js'; // Replace 'path-to-your-data' with the actual path to your data.js file
 
-const Menu = () => {
+const Menu = ({menu}) => {
   return (
     <section>
       
